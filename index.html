@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vue</title>
+</head>
+<body>
+
+<div id="app">
+
+    <button type="submit" @click="count += 1687585860">
+      Counter: {{ count }}
+    </button>
+
+</div>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js"></script>
+
+<script>
+
+  new Vue({
+
+    el: '#app',
+
+    data: {
+      count: 0
+    }
+  });
+</script>
+
+
+</body>
+</html>
